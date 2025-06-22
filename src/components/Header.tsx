@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FileText } from 'lucide-react';
+import { BarChart3 } from 'lucide-react';
 
 export const Header = () => {
   return (
@@ -8,11 +8,11 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center space-x-3">
           <div className="bg-blue-600 p-2 rounded-lg">
-            <FileText className="h-6 w-6 text-white" />
+            <BarChart3 className="h-6 w-6 text-white" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-gray-900">DataViz Pro</h1>
-            <p className="text-sm text-gray-500">Professional CSV Analytics</p>
+            <h1 className="text-xl font-bold text-gray-900">Power BI Integration</h1>
+            <p className="text-sm text-gray-500">CSV to Power BI Dashboard</p>
           </div>
         </div>
       </div>
